@@ -12,8 +12,8 @@
         <script>
             if (typeof console === 'undefined') console = {};
             console.log = function (msg) {
-            var txt = document.createTextNode(msg);
-            document.body.appendChild(txt);
+                var txt = document.createTextNode(msg + '\n');
+                document.body.appendChild(txt);
             };
         </script>
         <script src="bundle.js"></script>
