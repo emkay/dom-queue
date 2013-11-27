@@ -27,12 +27,12 @@
   "testling": {
     "files": "tests/*.js",
     "browsers": [
-      "ie/8",
-      "ie/9",
-      "ie10",
-      "firefox/latest",
-      "chrome/latest",
-      "safari/latest",
+      "ie/9..latest",
+      "firefox/3.6..latest",
+      "firefox/nightly",
+      "chrome/4.0..latest",
+      "chrome/canary",
+      "safari/5.1..latest",
       "opera/latest"
     ]
   }
