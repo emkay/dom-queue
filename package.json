@@ -28,12 +28,15 @@
     "files": "tests/*.js",
     "browsers": [
       "ie/9..latest",
-      "firefox/3.6..latest",
       "firefox/nightly",
-      "chrome/4.0..latest",
+      "firefox/10..latest",
       "chrome/canary",
+      "chrome/15..latest",
       "safari/5.1..latest",
-      "opera/latest"
+      "opera/latest",
+      "iphone/6.0",
+      "ipad/6.0",
+      "android-browser/4.2"
     ]
   }
 }
