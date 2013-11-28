@@ -38,3 +38,9 @@ Queue.prototype.shift = function () {
         this.node.removeChild(this.node.firstChild);
     }
 };
+
+Queue.prototype.remove = function (index) {
+    if (this.node.childNodes[index]) {
+        this.node.removeChild(this.node.childNodes[index]);
+    }
+};
