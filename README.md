@@ -8,7 +8,7 @@ A queue for the DOM
 
 ```
 var Queue = require('dom-queue');
-var q = Queue('some-list');
+var q = Queue({container: 'some-list'});
 
 q.push('a');
 q.push('b');
@@ -23,6 +23,17 @@ Outputs:
     <li class="item">c</li>
 </ul>
 ```
+
+### Queue
+
+`var q = new Queue(options={})`
+
+`options` consist of:
+
+* `container` default: `queue`
+* `tag` default: `ul`
+* `parent` default: `body`
+* `childTag` default: `li` if parent is `ul`. `span` otherwise.
 
 ### push
 
