@@ -2,7 +2,7 @@ var test = require('tape');
 var Queue = require('../');
 
 test('test pop', function (t) {
-    var q = new Queue('pop-list');
+    var q = new Queue({container: 'pop-list'});
     q.push(1);
     q.push(2);
     q.push(3);

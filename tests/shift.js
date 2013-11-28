@@ -2,7 +2,7 @@ var test = require('tape');
 var Queue = require('../');
 
 test('test shift', function (t) {
-    var q = new Queue('shift-list');
+    var q = new Queue({container: 'shift-list'});
     q.push(1);
     q.push(2);
     q.push(3);
