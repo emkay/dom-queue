@@ -2,7 +2,7 @@ dom-queue
 =========
 [![browser support](https://ci.testling.com/emkay/dom-queue.png)](https://ci.testling.com/emkay/dom-queue)
 
-A queue for the DOM
+A queue for the DOM. Not really a queue, but whatevs.
 
 ### Example
 
@@ -35,14 +35,18 @@ Outputs:
 * `parent` default: `body`
 * `childTag` default: `li` if parent is `ul`. `span` otherwise.
 
-### push
+### q.push(item)
 
-`q.push(item)`
+Push an `item` onto the queue.
 
-### pop
+### q.pop()
 
-`q.pop()`
+Remove the last item that was pushed.
 
-### shift
+### q.shift()
 
-`q.shift()`
+Remove the first item.
+
+### q.remove(index)
+
+Remove the item where `index` is in the list.
