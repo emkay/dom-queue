@@ -47,5 +47,10 @@ Queue.prototype.remove = function (index) {
 };
 
 Queue.prototype.clear = function () {
-    this.node.remove();
+    if (this.node.childElementCount === 0) {
+        return;
+    }
+
+    this.pop();
+    this.clear();
 };
