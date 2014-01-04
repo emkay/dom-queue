@@ -26,7 +26,7 @@ Outputs:
 
 ### Queue
 
-`var q = new Queue(options={})`
+`var q = Queue(options={})`
 
 `options` consist of:
 
