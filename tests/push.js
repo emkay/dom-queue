@@ -2,7 +2,7 @@ var test = require('tape');
 var Queue = require('../');
 
 test('test push numbers', function (t) {
-    var q = new Queue({container: 'num-list'});
+    var q = Queue({container: 'num-list'});
     q.push(1);
     q.push(2);
     q.push(3);
@@ -15,7 +15,7 @@ test('test push numbers', function (t) {
 });
 
 test('test push letters', function (t) {
-    var q = new Queue({container: 'letter-list'});
+    var q = Queue({container: 'letter-list'});
     q.push('a');
     q.push('b');
     q.push('c');

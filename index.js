@@ -1,6 +1,7 @@
 module.exports = Queue;
 
 function Queue(options) {
+    if (!(this instanceof Queue)) return new Queue(options);
     if (!options) {
         options = {};
     }

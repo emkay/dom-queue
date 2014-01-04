@@ -2,7 +2,7 @@ var test = require('tape');
 var Queue = require('../');
 
 test('test remove', function (t) {
-    var q = new Queue({container: 'remove-list'});
+    var q = Queue({container: 'remove-list'});
     q.push(1);
     q.push(2);
     q.push(3);
