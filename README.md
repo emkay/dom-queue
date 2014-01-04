@@ -6,7 +6,7 @@ A queue for the DOM. Not really a queue, but whatevs.
 
 ### Example
 
-```
+```javascript
 var Queue = require('dom-queue');
 var q = Queue({container: 'some-list'});
 
@@ -50,3 +50,7 @@ Remove the first item.
 ### q.remove(index)
 
 Remove the item where `index` is in the list.
+
+### q.clear()
+
+Clears items in the queue, but leaves the container.
