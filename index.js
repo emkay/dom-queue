@@ -45,3 +45,7 @@ Queue.prototype.remove = function (index) {
         this.node.removeChild(this.node.childNodes[index]);
     }
 };
+
+Queue.prototype.clear = function () {
+    this.node.remove();
+};
