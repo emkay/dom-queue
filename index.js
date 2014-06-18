@@ -6,6 +6,10 @@ function Queue(options) {
         options = {};
     }
 
+    if (!options.parent && !document.body) {
+        document.body = document.createElement('body');
+    }
+
     this.container = options.container || 'queue';
     this.tag = options.tag || 'ul';
     this.parent = options.parent || document.body;
