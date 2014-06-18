@@ -30,9 +30,9 @@
     "browsers": [
       "ie/9..latest",
       "firefox/nightly",
-      "firefox/10..latest",
+      "firefox/20..latest",
       "chrome/canary",
-      "chrome/15..latest",
+      "chrome/30..latest",
       "safari/5.1..latest",
       "opera/latest",
       "iphone/6.0",
